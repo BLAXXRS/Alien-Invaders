@@ -6,11 +6,13 @@ uhh what else am I supposed to say again I uhh I forgot.
 
 uhh oh oh yeah features, umm we have this
 
-🎮 Features
+🎮 F3atVrEZ
 
 we got ummm bossfight no s yeah yeah umm we then got umm infinite waves unless you die, 
 and then uhh some power ups thing hp, defense, and multishot, we also got some upgrade system
 yeah I think thats about it.
+
+📦 DoWNl0a4d!n$T44LL
 
 to download the .exe you can go right on to this link https://github.com/BLAXXRS/Alien-Invaders/releases (totally not shady or dangerous at all.)
 
