@@ -44,3 +44,20 @@ ohh yeah I uhh you should do this first if you wanna run the python file, uhh th
 
 
 This project is also built in python & pygame.
+
+<div align="center">
+
+---
+
+**Get Ready to Defend Earth the [REDACTED] are waiting for you...**
+
+<a href="https://blaxxrs.github.io/Alien-Invaders/">
+  <img src="https://img.shields.io/badge/🚀_PLAY_NOW-SUCCESS-brightgreen?style=for-the-badge" alt="Play Now"/>
+</a>
+
+---
+
+_Made with 🖤 by BLAXXRS_
+
+</div>
+
