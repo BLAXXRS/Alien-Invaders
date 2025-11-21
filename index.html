@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alien Invaders Ultimate Edition</title>
 <!-- Favicon -->
-<link rel="icon" href="icon.ico" type="image/x-icon">
-<link rel="icon" href="icon.png" type="image/png">
+<link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/740220663582818354/1441112665044029492/icon.png?ex=69209c41&is=691f4ac1&hm=8b31affd26bcf46bfd8c5927edde7b3a9b29f7982df6fe9c31c15d63d805444f&=&format=png&quality=lossless&width=989&height=989">
 <style>
     body {
         margin: 0;
@@ -160,6 +159,34 @@
         </div>
     </div>
 </div>
+
+
+<style>
+.lb-overlay{
+    position:fixed;inset:0;background:rgba(0,0,0,.75);
+    display:none;align-items:center;justify-content:center;
+    z-index:9999;padding:24px;backdrop-filter:blur(4px);
+}
+.lb-overlay.open{display:flex;}
+.lb-content img{max-width:95%;max-height:90vh;border-radius:12px;}
+</style>
+
+<div id="lightbox" class="lb-overlay">
+  <div class="lb-content"><img id="lbImage" src=""></div>
+</div>
+
+<script>
+document.querySelectorAll('.ss-box img').forEach(img=>{
+  img.style.cursor='zoom-in';
+  img.addEventListener('click',()=>{
+    document.getElementById('lbImage').src = img.src;
+    document.getElementById('lightbox').classList.add('open');
+  });
+});
+document.getElementById('lightbox').addEventListener('click',()=>{
+  document.getElementById('lightbox').classList.remove('open');
+});
+</script>
 
 </body>
 </html>
