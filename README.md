@@ -14,8 +14,6 @@ we got ummm bossfight no s yeah yeah umm we then got umm infinite waves unless y
 and then uhh some power ups thing hp, defense, and multishot, we also got some upgrade system
 yeah I think thats about it.
 
-![Game Demo](https://media.discordapp.net/attachments/740220663582818354/1441220602823184440/image.png?ex=692100c8&is=691faf48&hm=670b0b52c8e2e233310e7008ac1469d64ac220372667dcb65fd8016343c43c82&=&format=png&quality=lossless&width=1214&height=988)
-
 ---
 
 ## 🖼️ (!n)G#m3ZcR3en$h07Z
