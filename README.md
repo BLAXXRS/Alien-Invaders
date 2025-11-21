@@ -17,18 +17,20 @@ yeah I think thats about it.
 ![Game Demo](https://media.discordapp.net/attachments/740220663582818354/1441220602823184440/image.png?ex=692100c8&is=691faf48&hm=670b0b52c8e2e233310e7008ac1469d64ac220372667dcb65fd8016343c43c82&=&format=png&quality=lossless&width=1214&height=988)
 
 ---
-## 📱 (!n)G4mR5Cree|\|sH07$
+
+## 📱 Game Screenshots
 
 <div align="center">
+
 |                                                          🏠 Main Menu                                                           |                                                            🎮 Gameplay                                                             |                                                            💀 Game Over                                                            |
 | :-----------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
-| ![Start Screen](https://media.discordapp.net/attachments/740220663582818354/1441222021777330196/image.png?ex=6921021a&is=691fb09a&hm=48202bd75918543ecf8db77c8f5f666f2a987c8a78009b5e98d175d2576852b1&=&format=png&quality=lossless&width=1211&height=989) | ![Active Gameplay](https://media.discordapp.net/attachments/740220663582818354/1441222287947993148/image.png?ex=6921025a&is=691fb0da&hm=e19b7aebf15dc1c374b9056b476a275168e349dd4cf264cd35c051ba7d8f52ef&=&format=png&quality=lossless&width=536&height=438) | ![Game Over Screen](https://media.discordapp.net/attachments/740220663582818354/1441222397238837380/image.png?ex=69210274&is=691fb0f4&hm=4613233124f46eb3ffa315ea823e52f658aa875ef236c8abfe222a1fa883854e&=&format=png&quality=lossless&width=1218&height=989)
-) |
-|                                                  _Spinning GL0B3 Main Menu_                                                   |                                                  _Intense [REDACTED] destroying action_                                                   |                                                _'B4c|< to Title Screen'_                                                |
+| ![Start Screen](https://media.discordapp.net/attachments/740220663582818354/1441222021777330196/image.png?ex=6921021a&is=691fb09a&hm=48202bd75918543ecf8db77c8f5f666f2a987c8a78009b5e98d175d2576852b1&=&format=png&quality=lossless&width=1211&height=989) | ![Active Gameplay](h[ttps://raw.githubusercontent.com/avilesxd/code-destroy-aliens/refs/heads/main/docs/images/game/game_score.png](https://media.discordapp.net/attachments/740220663582818354/1441222287947993148/image.png?ex=6921025a&is=691fb0da&hm=e19b7aebf15dc1c374b9056b476a275168e349dd4cf264cd35c051ba7d8f52ef&=&format=png&quality=lossless&width=1211&height=989)) | ![Game Over Screen](https://raw.githubusercontent.com/avilesxd/code-destroy-aliens/refs/heads/main/docs/images/game/game_over.png) |
+|                                                  _spinny globe_                                                   |                                                  _Intense [REDACTED] fighting action_                                                   |                                                _nothingness_                                                |
 
 </div>
 
 ---
+
 
 ## 📦 DoWNl0a4d!n$T44LL
 
