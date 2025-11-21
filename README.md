@@ -36,7 +36,7 @@ yeah I think thats about it.
 
 ## 📦 DoWNl0a4d!n$T44LL
 
-to download the .exe you can go right on to this link https://github.com/BLAXXRS/Alien-Invaders/releases (totally not shady or dangerous at all.)
+to download the .exe you can go right on to this link https://blaxxrs.github.io/Alien-Invaders/ (totally not shady or dangerous at all.)
 
 you can also just download the .py file you can probably just find it here the name is Alien Invaders The Sequel to The Prequel to The Original Sequel Continuation Remastered Enhanced Edition.py
 
