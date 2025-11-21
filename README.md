@@ -1,6 +1,6 @@
 <div align="center">
 ![Alien Invaders Logo](https://media.discordapp.net/attachments/740220663582818354/1441233668101115954/Copy_of_azor.png?ex=69210cf3&is=691fbb73&hm=1d668591f57a54a0f7b6448a15903a9ab0e7e7ed6374cb293430d80f9a77aaf9&=&format=png&quality=lossless&width=1526&height=859)
-</div>
+
 
 # Alien Invaders The Sequel to The Prequel to The Original Sequel Continuation Remastered Enhanced Edition
 
