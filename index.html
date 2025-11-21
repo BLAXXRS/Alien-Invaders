@@ -59,12 +59,18 @@
     .github-btn { background: #238636; }
     .download-btn { background: #3fb950; }
 
-    .panel {
-        background: #161b22;
-        padding: 25px;
-        border-radius: 12px;
-        margin-bottom: 30px;
-    }
+/* Reduce big gap under screenshots */
+.panel {
+    margin-bottom: 10px; /* was 30 */
+}
+
+/* Remove large default margin on the h5 */
+.panel h5 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
 
     .screenshots {
         display: flex;
@@ -146,7 +152,7 @@
             <div class="ss-box"><img src="https://media.discordapp.net/attachments/740220663582818354/1441107823420244161/Screenshot_2025-11-20_151918.png?ex=692097bf&is=691f463f&hm=4df7575bc5cd99e5968b766ce9b725a8047a089ae61e1e0d1d0a569c8f1e6f39&=&format=png&quality=lossless&width=1063&height=859"></div>
             <div class="ss-box"><img src="https://media.discordapp.net/attachments/740220663582818354/1441107822795427951/Screenshot_2025-11-20_152856.png?ex=692097bf&is=691f463f&hm=b3239aab85a4b9f9343d1893ad1309d28309f4a46eb4f1dd8ba125d670bb4665&=&format=png&quality=lossless&width=1058&height=859"></div>
         </div>
-            <h6>Click Images to Enlarge</h6>
+            <h5>Click Images to Enlarge</h5>
         
         <div class="tips">
             <h2>Gameplay Tips</h2>
