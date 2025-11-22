@@ -4,17 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alien Invaders Ultimate Edition</title>
-<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/740220663582818354/1441112665044029492/icon.png?ex=69214501&is=691ff381&hm=2cb46f9e21d8cee10b03008593c762e5e6f1b71766978f9f173bf6f668c5e85e&=&format=png&quality=lossless&width=989&height=989">
+
+<link rel="icon" href="icon.ico">
+
 <style>
     body {
         margin: 0;
         font-family: Arial, sans-serif;
         background: black;
         color: #e6edf3;
-        overflow: hidden; /* lock scrolling on desktop */
+        overflow: hidden;
     }
 
-    /* STARFIELD */
     .star {
         position: absolute;
         width: 2px;
@@ -36,7 +37,7 @@
         max-width: 1400px;
         position: relative;
         z-index: 10;
-        animation: fadeIn 1.5s ease-out;
+        animation: fadeIn 1.2s ease-out;
     }
 
     @keyframes fadeIn {
@@ -52,25 +53,51 @@
         flex-wrap: wrap;
     }
 
-    .header img { width: 70px; height: 70px; border-radius: 12px; }
-    .header-title { font-size: 42px; font-weight: bold; margin: 0; }
+    .header img {
+        width: 70px;
+        height: 70px;
+        border-radius: 12px;
+    }
 
-    .top-buttons { margin-left: auto; display: flex; gap: 12px; flex-wrap: wrap; }
-    .btn { padding: 12px 22px; border-radius: 6px; font-weight: bold; text-decoration: none; color: white; text-align: center; }
+    .header-title {
+        font-size: 42px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .top-buttons {
+        margin-left: auto;
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        padding: 12px 22px;
+        border-radius: 6px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
     .github-btn { background: #238636; }
     .download-btn { background: #3fb950; }
 
     .panel {
-        background: rgba(22, 27, 34, 0.30);
+        background: rgba(22,27,34,0.30);
         padding: 25px;
         border-radius: 12px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         backdrop-filter: blur(6px);
     }
 
-    .panel h5 { margin-top: 10px; margin-bottom: 0; text-align: center; }
-
-    .screenshots { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    .screenshots {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
 
     .ss-box {
         flex: 1;
@@ -85,54 +112,75 @@
         justify-content: center;
     }
 
-    .ss-box img { width: 100%; height: 100%; object-fit: cover; cursor: zoom-in; }
+    .ss-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: zoom-in;
+    }
+
+    h5 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
 
     @media (max-width: 600px) {
-        .header-title { font-size: 26px; }
-        .header { text-align: center; justify-content: center; }
-        .top-buttons { width: 100%; justify-content: center; }
-        .screenshots { flex-direction: column; }
-        .ss-box { height: 200px; }
-    }
-@media (max-width: 600px) {
         body { overflow-y: auto; }
+
+        .header-title { font-size: 26px; }
+
+        .top-buttons {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .screenshots {
+            flex-direction: column;
+        }
+
+        .ss-box {
+            height: 200px;
+        }
     }
 </style>
 </head>
+
 <body>
 
 <script>
 function spawnStars() {
-    const starCount = 180;
-    for (let i = 0; i < starCount; i++) {
-        const star = document.createElement('div');
-        star.classList.add('star');
+    const count = 180;
+    for (let i = 0; i < count; i++) {
+        const s = document.createElement("div");
+        s.classList.add("star");
 
         const size = Math.random() * 2 + 1;
         const duration = Math.random() * 6 + 4;
         const delay = Math.random() * 5;
 
-        star.style.width = size + 'px';
-        star.style.height = size + 'px';
-        star.style.left = Math.random() * 100 + 'vw';
-        star.style.top = Math.random() * 100 + 'vh';
-        star.style.animationDuration = duration + 's';
-        star.style.animationDelay = delay + 's';
+        s.style.width = size + "px";
+        s.style.height = size + "px";
+        s.style.left = Math.random() * 100 + "vw";
+        s.style.top = Math.random() * 100 + "vh";
+        s.style.animationDuration = duration + "s";
+        s.style.animationDelay = delay + "s";
 
-        document.body.appendChild(star);
+        document.body.appendChild(s);
     }
 }
 spawnStars();
 </script>
 
 <div class="container">
+
     <div class="header">
-        <img src="https://cdn.discordapp.com/attachments/740220663582818354/1441112665044029492/icon.png?ex=69209c41&is=691f4ac1&hm=8b31affd26bcf46bfd8c5927edde7b3a9b29f7982df6fe9c31c15d63d805444f&=&format=png&quality=lossless&width=989&height=989" alt="icon">
+        <img src="icon.png">
         <h1 class="header-title">Alien Invaders Ultimate Enhanced Edition</h1>
 
         <div class="top-buttons">
-            <a class="btn github-btn" href="https://github.com/BLAXXRS/Alien-Invaders" target="_blank">View on GitHub</a>
-            <a class="btn download-btn" href="https://github.com/BLAXXRS/Alien-Invaders/releases/download/aliens/Alien.Invaders.The.Sequel.to.The.Prequel.to.The.Original.Sequel.Continuation.Remastered.Enhanced.Edition.exe">Download EXE</a>
+            <a class="btn github-btn" target="_blank" href="https://github.com/BLAXXRS/Alien-Invaders">View on GitHub</a>
+            <a class="btn download-btn" target="_blank" href="https://github.com/BLAXXRS/Alien-Invaders/releases/download/aliens/Alien.Invaders.The.Sequel.to.The.Prequel.to.The.Original.Sequel.Continuation.Remastered.Enhanced.Edition.exe">Download EXE</a>
         </div>
     </div>
 
@@ -140,13 +188,24 @@ spawnStars();
         <h2>📸 In-Game Screenshots</h2>
 
         <div class="screenshots">
-<div class="screenshots">
-    <div class="ss-box"><img src="screenshot/image.png" alt="screenshot 1">
-    <div class="ss-box"><img src="screenshot/image2.png" alt="screenshot 2">
-    <div class="ss-box"><img src="screenshot/image3.png" alt="screenshot 3">
-    <div class="ss-box"><img src="screenshot/image4.png" alt="screenshot 4">
-</div>
-<h5>Click Images to Enlarge</h5>
+
+            <div class="ss-box">
+                <img src="screenshot/image.png" alt="screenshot 1">
+            </div>
+
+            <div class="ss-box">
+                <img src="screenshot/image2.png" alt="screenshot 2">
+            </div>
+
+            <div class="ss-box">
+                <img src="screenshot/image3.png" alt="screenshot 3">
+            </div>
+
+            <div class="ss-box">
+                <img src="screenshot/image4.png" alt="screenshot 4">
+            </div>
+
+        </div>
 
         <h5>Click Images to Enlarge</h5>
 
@@ -161,8 +220,8 @@ spawnStars();
             </ul>
         </div>
     </div>
-</div>
 
+</div>
 
 <style>
 .lb-overlay {
@@ -176,7 +235,9 @@ spawnStars();
     padding: 24px;
     backdrop-filter: blur(4px);
 }
-.lb-overlay.open { display: flex; }
+.lb-overlay.open {
+    display: flex;
+}
 .lb-content img {
     max-width: 95%;
     max-height: 90vh;
@@ -185,19 +246,21 @@ spawnStars();
 </style>
 
 <div id="lightbox" class="lb-overlay">
-  <div class="lb-content"><img id="lbImage" src=""></div>
+    <div class="lb-content">
+        <img id="lbImage">
+    </div>
 </div>
 
 <script>
-document.querySelectorAll('.ss-box img').forEach(img => {
-  img.addEventListener('click', () => {
-    document.getElementById('lbImage').src = img.src;
-    document.getElementById('lightbox').classList.add('open');
-  });
+document.querySelectorAll(".ss-box img").forEach(img => {
+    img.addEventListener("click", () => {
+        document.getElementById("lbImage").src = img.src;
+        document.getElementById("lightbox").classList.add("open");
+    });
 });
 
-document.getElementById('lightbox').addEventListener('click', () => {
-  document.getElementById('lightbox').classList.remove('open');
+document.getElementById("lightbox").addEventListener("click", () => {
+    document.getElementById("lightbox").classList.remove("open");
 });
 </script>
 
