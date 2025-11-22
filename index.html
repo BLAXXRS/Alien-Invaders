@@ -13,7 +13,7 @@
         font-family: Arial, sans-serif;
         background: black;
         color: #e6edf3;
-        overflow: hidden;
+        
     }
 
     .star {
@@ -106,7 +106,7 @@
         background: #0f1318;
         border: 1px solid #2a2f37;
         border-radius: 10px;
-        overflow: hidden;
+        
         display: flex;
         align-items: center;
         justify-content: center;
@@ -143,6 +143,17 @@
             height: 200px;
         }
     }
+
+/* Disable scroll ONLY on devices wider than 1024px (PC/Laptop) */
+@media (min-width: 1024px) {
+    body { overflow: hidden; }
+}
+
+/* Allow scroll on phones & tablets */
+@media (max-width: 1023px) {
+    body { overflow-y: auto; }
+}
+
 </style>
 </head>
 
@@ -243,6 +254,17 @@ spawnStars();
     max-height: 90vh;
     border-radius: 12px;
 }
+
+/* Disable scroll ONLY on devices wider than 1024px (PC/Laptop) */
+@media (min-width: 1024px) {
+    body { overflow: hidden; }
+}
+
+/* Allow scroll on phones & tablets */
+@media (max-width: 1023px) {
+    body { overflow-y: auto; }
+}
+
 </style>
 
 <div id="lightbox" class="lb-overlay">
