@@ -1283,7 +1283,6 @@ class Shop:
 def main():
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("Alien Invaders The Sequel to The Prequel to The Original Sequel Continuation Remastered Enhanced Edition")
-    pygame.display.set_icon(pygame.image.load('C:/Users/azgro/Downloads/Alien Invaders/icon.png'))
     clock = pygame.time.Clock()
     font = pygame.font.SysFont(FONT_NAME, 18)
     bigfont = pygame.font.SysFont(FONT_NAME, 40)
@@ -1804,4 +1803,5 @@ class SniperEnemy(Enemy):
             d = math.hypot(dx, dy) or 1
             vx = dx/d * (ENEMY_BULLET_SPEED_BASE+3.5)
             vy = dy/d * (ENEMY_BULLET_SPEED_BASE+3.5)
+
             enemy_bullets.append(Bullet(self.x, self.y, vy, RED, 'enemy', vx=vx))
